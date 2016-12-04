@@ -1,1 +1,2 @@
-const test = 102;
+import chunk from 'lodash/fp';
+
