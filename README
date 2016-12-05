@@ -1,1 +1,1 @@
-bare bones es6 init with babel 6 + browserify
+To debug in vs code install babel-cli (it will come pre-installed after running `yarn` as it is on the package.json). Check that vs is configured to find babel-node in the launch.json file (see http://stackoverflow.com/questions/35975656/running-babel-node-in-visual-studio-code)
