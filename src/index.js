@@ -5,3 +5,5 @@ import './difference';
 
 // Ramda
 import './ramda/add';
+import './ramda/addIndex';
+import './ramda/adjust';
