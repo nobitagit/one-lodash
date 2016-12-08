@@ -1,6 +1,14 @@
 import R from 'ramda';
 import test from 'tape';
 
+/**
+ * R.adjust(
+ *   fn => function to apply
+ *   index => index of the target item to apply the function
+ *   list => target list
+ * )
+ * Execute a function trasformation to an item at a predefined index in a list.
+ */
 test('R.adjust()', assert => {
   /**
    * Goal: create a function "enableByIndex" that accepts an index and a list. When the function
@@ -8,8 +16,8 @@ test('R.adjust()', assert => {
    */
   const enableByIndex = R.adjust(
     item => R.assoc('active', true, item), // function to apply
-    // index,
-    // list
+    // index, => curried, see below
+    // list => curried, see below
   );
   const arr = [{
     filter: 'Country', active: false,

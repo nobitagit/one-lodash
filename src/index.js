@@ -7,3 +7,5 @@ import './difference';
 import './ramda/add';
 import './ramda/addIndex';
 import './ramda/adjust';
+import './ramda/all';
+import './ramda/allPass';
