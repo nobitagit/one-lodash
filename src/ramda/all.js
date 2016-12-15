@@ -1,4 +1,4 @@
-import R from 'Ramda';
+import R from 'ramda';
 import test from 'tape';
 
 /**
