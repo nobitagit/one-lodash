@@ -9,3 +9,4 @@ import './ramda/addIndex';
 import './ramda/adjust';
 import './ramda/all';
 import './ramda/allPass';
+import './ramda/always';
